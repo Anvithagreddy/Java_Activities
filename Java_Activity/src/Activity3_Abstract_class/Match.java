@@ -23,7 +23,7 @@ public abstract class Match {
 		this.target = target;
 	}
 
-	public abstract double calculateRunRate();
+	public abstract float calculateRunRate();
 	public abstract int calculateBalls();
 	public abstract void display(double reqRunrate, int balls);
 

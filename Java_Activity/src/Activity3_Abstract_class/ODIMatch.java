@@ -2,8 +2,10 @@ package Activity3_Abstract_class;
 
 public class ODIMatch extends Match {
 	
-	public double calculateRunRate() {
-		return (remaining_runs()/((50.0-getCurrentover())));
+	public float calculateRunRate() {
+		float val= getCurrentover();
+		float v= 50-val;
+		return (remaining_runs()/(v));
 	}
 	
 	public int remaining_runs()

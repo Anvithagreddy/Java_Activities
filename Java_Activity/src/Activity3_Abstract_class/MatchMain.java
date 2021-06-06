@@ -21,7 +21,7 @@ public class MatchMain {
 			   odi.setCurrentover(sc.nextFloat());
 			   System.out.println("Enter Target Score");
 			   odi.setTarget(sc.nextInt());
-			   double rr=odi.calculateRunRate();
+			   float rr=odi.calculateRunRate();
 			   int balls=odi.calculateBalls();
 			   odi.display(rr, balls);
 			   break;
@@ -32,7 +32,7 @@ public class MatchMain {
 			   t20.setCurrentover(sc.nextFloat());
 			   System.out.println("Enter Target Score");
 			   t20.setTarget(sc.nextInt());
-			   double runr=t20.calculateRunRate();
+			   float runr=t20.calculateRunRate();
 			   int ball_s=t20.calculateBalls();
 			   t20.display(runr, ball_s);
 			   break;
@@ -43,7 +43,7 @@ public class MatchMain {
 			   test.setCurrentover(sc.nextFloat());
 			   System.out.println("Enter Target Score");
 			   test.setTarget(sc.nextInt());
-			   double run_r=test.calculateRunRate();
+			   float run_r=test.calculateRunRate();
 			   int bal_s=test.calculateBalls();
 			   test.display(run_r, bal_s);
 		       break;	   
